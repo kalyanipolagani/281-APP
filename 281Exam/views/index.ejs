@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+<body>
+
+<div class="form">
+          
+      <div class="boxed">
+        <div id="rest">   
+                  
+          <form action="/post" method="post">
+          
+          <h3> Post </h3>
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                Username : <span class="req"></span>
+              </label>
+              <input type="text" name="username" required autocomplete="off" />
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Password : <span class="req"></span>
+              </label>
+              <input type="text" name="password" required autocomplete="off"/>
+            </div>
+          </div>
+          
+         
+          <button type="submit" class="btn btn-info btn-lg" style="color: #ffffff; background-color: #000000"/>Add</button>
+          
+          </form>
+
+        </div>
+        
+      </div>  
+</div> 
+</div>
+
+
+<div class="form">
+          
+      <div class="boxed">
+        <div id="rest">   
+                  
+          <form action="/get" method="get">
+          
+          <h3> GET all</h3>
+          
+          <button type="submit" class="btn btn-info btn-lg" style="color: #ffffff; background-color: #000000"/>View All</button>
+          
+          </form>
+
+        </div>
+        
+      </div>  
+</div> 
+</div>
+
+
+<div class="form">
+          
+      <div class="boxed">
+        <div id="rest">   
+                  
+          <form action="/getone" method="get">
+          
+          <h3> GET one </h3>
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                Username : <span class="req"></span>
+              </label>
+              <input type="text" name="username" required autocomplete="off" />
+            </div>
+           
+          <button type="submit" class="btn btn-info btn-lg" style="color: #ffffff; background-color: #000000"/>View one</button>
+          
+          
+          </form>
+
+        </div>
+        
+      </div>  
+</div> 
+</div>
+
+
+<div class="form">
+          
+      <div class="boxed">
+        <div id="rest">   
+                  
+          <form action="/put" method="post">
+          
+          <h3> PUT </h3>
+                   
+           <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                Username : <span class="req"></span>
+              </label>
+              <input type="text" name="username" required autocomplete="off" />
+            </div>
+            
+            <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                Password : <span class="req"></span>
+              </label>
+              <input type="text" name="password" required autocomplete="off" />
+            </div>
+            
+            
+        
+           <button type="submit" class="btn btn-info btn-lg" style="color: #ffffff; background-color: #000000"/>Update</button>
+          
+          </form>
+
+        </div>
+        
+      </div>  
+</div> 
+</div>
+
+
+
+<div class="form">
+          
+      <div class="boxed">
+        <div id="rest">   
+                  
+          <form action="/delete" method="post">
+          
+          <h3> DELETE on name</h3>
+                   
+         <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                Username : <span class="req"></span>
+              </label>
+              <input type="text" name="username" required autocomplete="off" />
+            </div>
+           
+        
+           <button type="submit" class="btn btn-info btn-lg" style="color: #ffffff; background-color: #000000"/>Delete</button>
+          
+          </form>
+
+        </div>
+        
+      </div>  
+</div> 
+</div>
+
+
+
+</body>
+</html>
